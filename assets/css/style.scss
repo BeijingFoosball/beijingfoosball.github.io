@@ -1,0 +1,33 @@
+---
+---
+
+/*
+ * Theme of Beijing Foosball
+ * Copyright (c) David Zhang, 2024
+ */
+
+$mobile-breakpoint: 640px;
+$large-screen-breakpoint: 1900px;
+
+// fonts
+$main-font: 'Fira Sans', 'Segoe UI', Roboto, Helvetica, Arial,
+  'source-han-sans-simplified-c', 'Hiragino Sans GB', 'Microsoft Yahei',
+  sans-serif;
+$code-font: 'Fira Mono', Menlo, Monaco, Consolas, Courier, monospace;
+
+// colors
+$main: #222222;
+$secondary: #A6A6A6;
+$bright: #F32735;
+$accent: #FFC629;
+$bg: #F8F9FA;
+$link: $main;
+
+@import 'mixins';
+
+@import 'main';
+@import 'menu';
+@import 'footer';
+@import 'article';
+@import 'archive';
+@import 'tile';

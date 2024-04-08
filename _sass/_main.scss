@@ -1,0 +1,114 @@
+// Theme of Beijing Foosball
+// Copyright (c) David Zhang, 2024
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+@include mobile {
+  html {
+    font-size: 14px;
+  }
+}
+
+@include large-screen {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  background-color: $bg;
+  color: $main;
+  font-family: $main-font;
+  font-size: 1rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  word-wrap: break-word;
+
+  // ::selection {
+  //   background-color: $mild;
+  // }
+}
+
+a {
+  color: $link;
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0;
+}
+
+.content {
+  padding: 1.2rem 1.2rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+@include large-screen {
+  .wrapper {
+    width: 56rem;
+  }
+}
+
+@include mobile {
+  .wrapper {
+    display: block;
+    width: 100%;
+  }
+
+  .content {
+    padding: 0.8rem;
+    width: 100%;
+  }
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+@include mobile {
+  img {
+    max-width: 100%;
+  }
+}
+
+.img-wrapper {
+  max-width: 100%;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.img-1-2 {
+  max-width: 50%;
+}
+
+.img-1-4 {
+  max-width: 25%;
+}
+
+.intro {
+  border-bottom: 1px solid $secondary;
+  margin: 0 auto 1.8rem;
+  padding: 0 1.8rem 1.8rem;
+  text-align: center;
+}

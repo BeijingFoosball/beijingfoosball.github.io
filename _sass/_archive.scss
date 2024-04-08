@@ -1,0 +1,51 @@
+// Theme of Beijing Foosball
+// Copyright (c) David Zhang, 2024
+
+.archive-main {
+  display: flex;
+
+  a {
+    color: $main;
+    text-decoration: none;
+  }
+
+  .archive-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .archive-section {
+    width: 50%;
+  }
+
+  .archive-item {
+    line-height: 1.8rem;
+    margin-top: 0.6rem;
+    overflow: auto;
+
+    .archive-date {
+      color: $bright;
+      font-size: 0.8rem;
+      margin: 0;
+    }
+  }
+}
+
+.archive-more {
+  color: $main;
+  margin: 0.8rem 0;
+
+  a {
+    color: $main;
+  }
+}
+
+@include mobile {
+  .archive-main {
+    display: block;
+
+    .archive-section {
+      width: 100%;
+    }
+  }
+}

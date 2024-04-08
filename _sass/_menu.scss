@@ -1,0 +1,90 @@
+// Theme of Beijing Foosball
+// Copyright (c) David Zhang, 2024
+
+.header {
+  background-color: $bg;
+  width: 100%;
+}
+
+.menu {
+  border-bottom: 1px solid $secondary;
+  color: $main;
+  display: flex;
+  margin-top: 1.8rem;
+  padding-bottom: 1rem;
+  text-align: center;
+
+  .menu-home {
+    width: 240px;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  .menu-links {
+    display: flex;
+    margin: auto 0 auto 1.8rem;
+  }
+
+  .menu-item {
+    font-size: 1.4rem;
+    padding: .4rem .8rem;
+    text-align: center;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &:hover {
+      color: $bg;
+      background-color: $main;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: $bg;
+      }
+    }
+  }
+
+  .menu-en {
+    font-size: 1rem;
+  }
+
+  .menu-active {
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+@include mobile {
+  .menu {
+    display: block;
+    margin: 0;
+    padding: 0 0.8rem;
+
+    .menu-home {
+      margin: 1.2rem auto 0;
+    }
+
+    .menu-links {
+      display: flex;
+      justify-content: space-between;
+      margin: 0.4rem auto;
+    }
+
+    .menu-item {
+      font-size: 1rem;
+      margin: 0;
+    }
+    .menu-en {
+      font-size: 0.8rem;
+    }
+  }
+}

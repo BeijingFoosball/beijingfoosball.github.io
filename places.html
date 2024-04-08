@@ -1,0 +1,26 @@
+---
+layout: page
+title: 活动场所
+---
+
+<div class="tiles">
+  {% for item in site.data.places %}
+  <div class="tile">
+    <div class="tile-title">
+      <a href="{{ item.link }}" target="_blank">
+        {{ item.name }}
+      </a>
+    </div>
+    <div class="tile-body">
+      <ul>
+        <li>介绍：{{ item.desc }}</li>
+        <li>球桌：{{ item.table }}</li>
+        <li>地址：{{ item.address }}</li>
+      </ul>
+    </div>
+    <div class="tile-image">
+      <img alt="{{ item.name }}" src="/assets/images/places/{{ item.image }}" />
+    </div>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,20 @@
+---
+layout: page
+title: 赛事与活动
+---
+
+<div class="tiles">
+  {% for item in site.data.events %}
+  <div class="tile">
+    <div class="tile-subtitle">{{ item.level }}</div>
+    <div class="tile-title">
+      <a href="{{ item.link }}" target="_blank">
+        {{ item.name }} {{ item.date }}
+      </a>
+    </div>
+    <div class="tile-image">
+      <img src="/assets/images/events/{{ item.prefix }}-{{ item.date | date: '%Y%m%d'}}.png" alt="" />
+    </div>
+  </div>
+  {% endfor %}
+</div>

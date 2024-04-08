@@ -1,0 +1,46 @@
+---
+layout: page
+title: 北京桌式足球 Beijing Foosball
+---
+
+<div class="intro">
+  <p>
+  加入北京桌式足球社团，尽享竞技乐趣。
+  </p>
+  <p>
+  请联系 <a href="https://www.xiaohongshu.com/user/profile/5b9d15936b58b72c5b7f8bb3" target="_blank">@Lauren</a> 加入我们。
+  </p>
+</div>
+
+<div class="archive-main">
+  <div class="archive-section">
+    <div class="archive-heading">
+      <a href="/info.html">资讯</a>
+    </div>
+    {% for item in site.data.info limit:6 %}
+    <div class="archive-item">
+      <div class="archive-date">{{ item.date | date:"%B %d, %Y" }}</div>
+      <div class="archive-title">
+        <a href="{{ item.link }}" target="_blank">
+          {{ item.title }}
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="archive-section">
+    <div class="archive-heading">
+      <a href="/events.html">赛事</a>
+    </div>
+  {% for item in site.data.events limit:6 %}
+    <div class="archive-item">
+      <div class="archive-date">{{ item.date | date:"%B %d, %Y" }}</div>
+      <div class="archive-title">
+        <a href="{{ item.link }}" target="_blank">
+          [{{ item.level }}] {{ item.name }} {{ item.date }}
+        </a>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</div>

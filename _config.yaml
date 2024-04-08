@@ -1,0 +1,8 @@
+encoding: UTF-8
+markdown: kramdown
+assets: /assets
+
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
