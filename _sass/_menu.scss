@@ -57,8 +57,11 @@
   }
 
   .menu-active {
+    background-color: $main;
+
     a {
-      text-decoration: underline;
+      color: $bg;
+      text-decoration: none;
     }
   }
 }

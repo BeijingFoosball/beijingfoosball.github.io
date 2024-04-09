@@ -22,9 +22,9 @@
     margin-top: 1.2rem;
 
     a {
-      color: $link;
+      color: inherit;
       position: relative;
-      text-decoration: none;
+      text-decoration: inherit;
       transition: color 0.4s;
 
       &:hover {
@@ -44,6 +44,22 @@
         transform: scaleX(0);
         transition: all 0.2s cubic-bezier(0.82, 0, 0.12, 1) 0s;
         width: 100%;
+      }
+    }
+
+    .intro {
+      border-bottom: 1px solid $secondary;
+      margin: 0 auto 1.8rem;
+      padding: 0 1.8rem 1.8rem;
+      text-align: center;
+
+      a {
+        text-decoration: $bright dotted underline;
+        text-underline-offset: 6px;
+
+        &::before{
+          all: unset;
+        }
       }
     }
   }
