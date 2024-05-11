@@ -44,11 +44,8 @@ body {
 a {
   color: $link;
   font-weight: 400;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
+  text-decoration: $main underline dotted;
+  text-underline-offset: 6px;
 }
 
 .wrapper {
