@@ -12,6 +12,10 @@ key: about
 
 我们的目标是打造一个团结、友爱的桌式足球生态圈，让每一个热爱桌式足球的人都能在这里找到归属感。来吧，加入北京桌式足球社团，和我们一起，传播桌式足球的快乐，推动这项运动的进步，展现你的技术，分享你的热情，尽享桌式足球的魅力！
 
+<div class="img-wrapper">
+  <img alt="Beijing Foosball Members" src="/assets/images/members.jpg" class="img-1-2" />
+</div>
+
 ## 历史
 
 - 2013年，北京桌式足球社区正式成立。
