@@ -19,7 +19,11 @@ key: events
       </a>
     </div>
     <div class="tile-image">
+      {% if item.default_logo %}
+      <img src="/assets/images/events/{{ item.prefix }}.png" alt="" />
+      {% else %}
       <img src="/assets/images/events/{{ item.prefix }}-{{ item.date | date: '%Y%m%d'}}.png" alt="" />
+      {% endif %}
     </div>
   </div>
   {% endfor %}
