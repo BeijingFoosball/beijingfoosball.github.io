@@ -20,7 +20,7 @@ key: works
 - GitHub: <https://github.com/crispgm/foosball-referee>
 
 <div class="img-wrapper">
-  <img alt="Foosball Light for Fireball" src="/assets/images/foosball-referee.png" class="img-1-2" />
+  <img alt="Foosball Referee" src="/assets/images/foosball-referee.png" class="img-1-2" />
 </div>
 
 > This web app is highly inspired by FoosRef app.
