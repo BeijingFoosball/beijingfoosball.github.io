@@ -41,20 +41,23 @@ key: about
 ## 合作伙伴
 
 <div class="img-wrapper">
-  <img alt="ThePoolBar Logo" src="/assets/images/the-pool-bar.png" class="img-1-4" />
+  <img alt="ThePoolBar Logo" src="/assets/images/cooperator/the-pool-bar.png" class="img-1-4" />
 </div>
 <div class="img-wrapper">
-  <img alt="Byte Foosball Logo" src="/assets/images/byte-foos-large.png" class="img-1-4" />
+  <img alt="Byte Foosball Logo" src="/assets/images/cooperator/byte-foos.png" class="img-1-4" />
 </div>
 <div class="img-wrapper">
-  <img alt="Meituan Foosball Logo" src="/assets/images/meituan-foosball-club.png" class="img-1-4" />
+  <img alt="Dcar Foosball Logo" src="/assets/images/cooperator/dcar-foos.png" class="img-1-4" />
 </div>
 <div class="img-wrapper">
-  <img alt="Xiaomi Table Soccer Logo" src="/assets/images/xiaomi-table-soccer.png" class="img-1-4" />
+  <img alt="Meituan Foosball Logo" src="/assets/images/cooperator/meituan-foosball-club.png" class="img-1-4" />
 </div>
 <div class="img-wrapper">
-  <img alt="Shanghai Foosball Logo" src="/assets/images/shanghai-foosball.jpg" class="img-1-4" />
+  <img alt="Xiaomi Table Soccer Logo" src="/assets/images/cooperator/xiaomi-table-soccer.png" class="img-1-4" />
 </div>
 <div class="img-wrapper">
-  <img alt="ATSA Logo" src="/assets/images/ATSALogo.jpg" class="img-1-2" />
+  <img alt="Shanghai Foosball Logo" src="/assets/images/cooperator/shanghai-foosball.jpg" class="img-1-4" />
+</div>
+<div class="img-wrapper">
+  <img alt="ATSA Logo" src="/assets/images/cooperator/ATSALogo.jpg" class="img-1-2" />
 </div>
