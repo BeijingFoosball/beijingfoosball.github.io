@@ -38,11 +38,8 @@ key: about
 
 标识以中文字体“京”为核心，地域特色与文化内涵鲜明。桌足人偶、桌式足球桌与中国印元素的巧妙融入，为标识注入了中国传统文化的深厚底蕴。人偶与“京”字的结合，既平衡又和谐，使标识更富趣味性和记忆点。整体设计对称美观，既传承了传统文化的精髓，又展现了现代设计的创新之美。
 
-## 合作伙伴
+## 关联组织
 
-<div class="img-wrapper">
-  <img alt="ThePoolBar Logo" src="/assets/images/cooperator/the-pool-bar.png" class="img-1-4" />
-</div>
 <div class="img-wrapper">
   <img alt="Byte Foosball Logo" src="/assets/images/cooperator/byte-foos.png" class="img-1-4" />
 </div>
@@ -54,6 +51,12 @@ key: about
 </div>
 <div class="img-wrapper">
   <img alt="Xiaomi Table Soccer Logo" src="/assets/images/cooperator/xiaomi-table-soccer.png" class="img-1-4" />
+</div>
+
+## 合作伙伴
+
+<div class="img-wrapper">
+  <img alt="ThePoolBar Logo" src="/assets/images/cooperator/the-pool-bar.png" class="img-1-4" />
 </div>
 <div class="img-wrapper">
   <img alt="Shanghai Foosball Logo" src="/assets/images/cooperator/shanghai-foosball.jpg" class="img-1-4" />
