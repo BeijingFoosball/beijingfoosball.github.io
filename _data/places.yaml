@@ -1,17 +1,20 @@
 - name: THE POOL BAR
   desc: 周五晚和周六全天活动，汇集北京一线高手。
+  desc_en: Best place for competitive foosball, where top players go.
   link: https://m.dianping.com/shopshare/k1tcZDtRfXspEFvZ
   address: 北京市东城区鼓楼东大街106号
   table: 火球专业版
   image: the-pool-bar.jpg
-- name: 圆场·Circle Urban Brunch & Bar
+- name: 圆场 · Circle Urban Brunch & Bar
   desc: 位于抖音集团总部1733商区，互联网球友分据点。
+  desc_en: Locates in Douyin/TikTok HQ, best for IT industry workers.
   link: https://m.dianping.com/shopshare/l5Vj7PLxkSuvurO8
   address: 北京市海淀区北三环西路甲13号
   table: 火球专业版
   image: circle-urban.jpg
 - name: School Bar
   desc: 摇滚青年们一起切磋醉球的好去处。
+  desc_en: Alcohol, rock 'n' roll, and foosball.
   link: https://m.dianping.com/shopshare/l6rk0zZ9qVY9FhES
   address: 北京市东城区五道营胡同53号院内
   table: 火球专业版

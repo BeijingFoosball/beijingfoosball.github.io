@@ -32,6 +32,12 @@ If you want to join us, feel free to [contact via email](mailto:bjfoospromo+web@
 "Enjoy the Sports" is our motto and idea. This is not only what makes us love this game but also a philosophy of life.
 We believe each fierce ball rolling, accurate shooting and wonderful defense are not only a show of the skills, but also a deep enjoy and respect the this sport.
 
+## Where We Play?
+
+{% for item in site.data.places %}
+- [{{ item.name }}]({{ item.link }}): {{ item. desc_en }}
+{% endfor %}
+
 ## Schedules
 
 ### Weekly MonsterDYP
