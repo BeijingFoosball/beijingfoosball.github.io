@@ -2,6 +2,17 @@ encoding: UTF-8
 markdown: kramdown
 assets: /assets
 
+collections:
+  docs:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: page
+
 exclude:
   - Rakefile
   - Gemfile
