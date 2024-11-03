@@ -66,6 +66,12 @@
   }
 }
 
+@include pad {
+  .menu {
+    margin: 0.8rem 0.8rem 0;
+  }
+}
+
 @include mobile {
   .menu {
     display: block;

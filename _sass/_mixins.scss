@@ -9,6 +9,18 @@
   }
 }
 
+@mixin pad() {
+  @media screen and (min-width: #{$mobile-breakpoint}) and (max-width: #{$desktop-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media screen and (min-width: #{$desktop-breakpoint}) {
+    @content;
+  }
+}
+
 @mixin large-screen() {
   @media screen and (min-width: #{$large-screen-breakpoint}) {
     @content;

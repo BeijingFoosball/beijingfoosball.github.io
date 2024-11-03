@@ -60,6 +60,12 @@ a {
   width: 100%;
 }
 
+@include pad {
+  .wrapper {
+    width: 100%;
+  }
+}
+
 @include large-screen {
   .wrapper {
     width: 56rem;
