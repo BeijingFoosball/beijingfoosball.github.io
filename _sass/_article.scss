@@ -32,6 +32,13 @@
         text-underline-offset: 6px;
       }
     }
+
+    @include mobile {
+      .intro {
+        padding: 0 0 1.8rem;
+        text-align: left;
+      }
+    }
   }
 }
 
