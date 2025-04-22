@@ -35,10 +35,12 @@ We believe each fierce ball rolling, accurate shooting and wonderful defense are
 ## Where We Play?
 
 {% for item in site.data.places %}
-- [{{ item.name }}]({{ item.link }}): {{ item. desc_en }}
+- [{{ item.name }}]({{ item.link }}): {{ item.desc_en }} ({{ item.googlemaps }})
 {% endfor %}
 
 ## Schedules
+
+If you want to join us, please [contact via email](mailto:bjfoospromo+web@gmail.com) and we will add you to our WeChat group for detail information.
 
 ### Weekly MonsterDYP
 

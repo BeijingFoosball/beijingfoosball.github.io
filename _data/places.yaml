@@ -5,6 +5,7 @@
   address: 北京市东城区鼓楼东大街106号
   table: 火球专业版
   image: the-pool-bar.jpg
+  googlemaps: https://maps.app.goo.gl/kaxKYbjvBM5ue3YEA
 - name: 圆场 · Circle Urban Brunch & Bar
   desc: 抖音集团总部1733商区，互联网球友分据点。
   desc_en: Locates in Douyin/TikTok HQ, best for IT industry workers.
@@ -12,6 +13,7 @@
   address: 北京市海淀区北三环西路甲13号
   table: 火球专业版
   image: circle-urban.jpg
+  googlemaps: https://maps.app.goo.gl/P1zpQrnX8TGLRXdk6
 - name: School Bar
   desc: 摇滚青年们一起切磋醉球的好去处。
   desc_en: Alcohol, rock 'n' roll, and foosball.
@@ -19,3 +21,4 @@
   address: 北京市东城区五道营胡同53号院内
   table: 火球专业版
   image: school-bar.jpg
+  googlemaps: https://maps.app.goo.gl/epBRYEj2U771T6q79

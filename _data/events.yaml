@@ -1,3 +1,27 @@
+- name: 养生杯+ Yangsheng+
+  level: ATSA250
+  prefix: YANGSHENG-PLUS-2025
+  default_logo: true
+  date: 2025-02-22
+  link: https://asiatablesoccer.glide.page/dl/tournaments/s/8e7f85/r/f.0gNf4cRAGagxiMzY666w
+- name: 养生杯 Yangsheng Cup
+  level: ATSA50
+  prefix: YANGSHENG-2025
+  default_logo: true
+  date: 2025-02-22
+  link: https://asiatablesoccer.glide.page/dl/tournaments/s/8e7f85/r/f.0gNf4cRAGagxiMzY666w
+- name: 养生杯 Yangsheng Cup
+  level: ATSA50
+  prefix: YANGSHENG-2025
+  default_logo: true
+  date: 2025-01-18
+  link: https://asiatablesoccer.glide.page/dl/tournaments/s/8e7f85/r/XGmFd.4RSmO79FIubzLfQw
+- name: 养生杯 Yangsheng Cup
+  level: ATSA50
+  prefix: YANGSHENG
+  default_logo: true
+  date: 2024-12-21
+  link: https://asiatablesoccer.glide.page/dl/tournaments/s/8e7f85/r/R9I58ECGQc6wyUOUoK1iNA
 - name: 养生杯 Yangsheng Cup
   level: ATSA50
   prefix: YANGSHENG
@@ -37,11 +61,13 @@
 - name: 养生杯 Yangsheng Cup
   level: ATSA50
   prefix: YANGSHENG
+  default_logo: true
   date: 2024-03-30
   link: https://asiatablesoccer.glide.page/dl/tournaments/s/8e7f85/r/a-snfItrrTD6M87JYLc7voA
 - name: 养生杯 Yangsheng Cup
   level: ATSA50
   prefix: YANGSHENG
+  default_logo: true
   date: 2024-01-06
   link: https://asiatablesoccer.glide.page/dl/tournaments/s/8e7f85/r/WUNZ7YQcTAWYHgn6vwrSbw
 - name: 养生杯 Yangsheng Cup
