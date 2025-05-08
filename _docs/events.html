@@ -19,9 +19,10 @@ key: events
     <div class="tile-subtitle">{{ item.level }}</div>
     <div class="tile-title">
       <a href="{{ item.link }}" target="_blank">
-        {{ item.name }} {{ item.date }}
+        {{ item.name }}
       </a>
     </div>
+    <div class="tile-date">{{ item.date }}</div>
     <div class="tile-image">
       {% if item.default_logo %}
       <img src="/assets/images/events/{{ item.prefix }}.png" alt="" />
