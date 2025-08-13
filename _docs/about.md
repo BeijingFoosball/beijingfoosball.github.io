@@ -42,27 +42,55 @@ key: about
 
 ## 关联组织
 
-<div class="img-wrapper">
-  <img alt="Byte Foosball Logo" src="/assets/images/cooperator/byte-foos.png" class="img-1-4" />
-</div>
-<div class="img-wrapper">
-  <img alt="Dcar Foosball Logo" src="/assets/images/cooperator/dcar-foos.png" class="img-1-4" />
-</div>
-<div class="img-wrapper">
-  <img alt="Meituan Foosball Logo" src="/assets/images/cooperator/meituan-foosball-club.png" class="img-1-4" />
-</div>
-<div class="img-wrapper">
-  <img alt="Xiaomi Table Soccer Logo" src="/assets/images/cooperator/xiaomi-table-soccer.png" class="img-1-4" />
+<div class="partners">
+  <div class="partner">
+    <div class="partner-image">
+      <img alt="Byte Foosball Logo" src="/assets/images/partners/byte-foos.png" class="partner-logo" />
+    </div>
+  </div>
+  <div class="partner">
+    <div class="partner-image">
+      <img alt="Dcar Foosball Logo" src="/assets/images/partners/dcar-foos.png" class="partner-logo" />
+    </div>
+  </div>
+  <div class="partner">
+    <div class="partner-image">
+      <img alt="Meituan Foosball Logo" src="/assets/images/partners/meituan-foosball-club.png" class="partner-logo" />
+    </div>
+  </div>
+  <div class="partner">
+    <div class="partner-image">
+      <img alt="Xiaomi Table Soccer Logo" src="/assets/images/partners/xiaomi-table-soccer.png" class="partner-logo" />
+    </div>
+  </div>
 </div>
 
 ## 合作伙伴
 
-<div class="img-wrapper">
-  <img alt="ThePoolBar Logo" src="/assets/images/cooperator/the-pool-bar.png" class="img-1-4" />
-</div>
-<div class="img-wrapper">
-  <img alt="Shanghai Foosball Logo" src="/assets/images/cooperator/shanghai-foosball.jpg" class="img-1-4" />
-</div>
-<div class="img-wrapper">
-  <img alt="ATSA Logo" src="/assets/images/cooperator/ATSALogo.jpg" class="img-1-2" />
+<div class="partners">
+  <div class="partner">
+    <div class="partner-image">
+      <img alt="ThePoolBar Logo" src="/assets/images/partners/the-pool-bar.png" class="partner-logo" />
+    </div>
+  </div>
+  <div class="partner">
+    <div class="partner-image">
+      <img alt="Fireball Logo" src="/assets/images/partners/fireball.png" class="partner-logo" />
+    </div>
+  </div>
+  <div class="partner">
+    <div class="partner-image">
+      <img alt="Shanghai Foosball Logo" src="/assets/images/partners/shanghai-foosball.jpg" class="partner-logo" />
+    </div>
+  </div>
+  <div class="partner">
+    <div class="partner-image">
+      <img alt="ATSA Logo" src="/assets/images/partners/ATSALogo.jpg" class="partner-logo" />
+    </div>
+  </div>
+  <div class="partner">
+    <div class="partner-image">
+      <img alt="ITSF Logo" src="/assets/images/partners/itsf.jpg" class="partner-logo" />
+    </div>
+  </div>
 </div>
