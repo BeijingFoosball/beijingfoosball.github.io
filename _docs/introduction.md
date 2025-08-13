@@ -17,7 +17,7 @@ We want to provide a platform for players, either pursuing entertainment or stri
 
 We speak mandarin Chinese because we are Chinese (of course). However, we highly welcome players from all over the world speaking different languages. That's why this page exists.
 
-If you want to join us, feel free to [contact via email](mailto:bjfoospromo+web@gmail.com).
+If you want to join us, feel free to [contact via email](mailto:bjfoospromo+web@gmail.com) or join our [Facebook Group](https://www.facebook.com/groups/beijingfoosball).
 
 ## History
 
