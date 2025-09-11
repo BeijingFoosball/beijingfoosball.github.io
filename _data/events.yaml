@@ -1,3 +1,9 @@
+- name: 养生杯 Yangsheng Tournament
+  level: ATSA50
+  prefix: YANGSHENG-2025
+  default_logo: true
+  date: 2025-09-13
+  link: https://asiatablesoccer.glide.page/dl/tournaments/s/8e7f85/r/uItiYHQtSdyFxlmwH-d45A
 - name: 养生杯+ Yangsheng Quarterly Final
   level: ATSA250
   prefix: YANGSHENG-PLUS-2025
