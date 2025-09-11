@@ -13,23 +13,44 @@ key: events
   </p>
 </div>
 
-<div class="tiles">
-  {% for item in site.data.events %}
-  <div class="tile">
-    <div class="tile-subtitle">{{ item.level }}</div>
-    <div class="tile-title">
-      <a href="{{ item.link }}" target="_blank">
-        {{ item.name }}
-      </a>
-    </div>
-    <div class="tile-date">{{ item.date }}</div>
-    <div class="tile-image">
-      {% if item.default_logo %}
-      <img src="/assets/images/events/{{ item.prefix }}.png" alt="" />
-      {% else %}
-      <img src="/assets/images/events/{{ item.prefix }}-{{ item.date | date: '%Y%m%d'}}.png" alt="" />
-      {% endif %}
-    </div>
+{% assign years = "" | split: "" %}
+
+{% for item in site.data.events %}
+  {% assign year = item.date | date: "%Y" %}
+  {% unless years contains year %}
+    {% assign years = years | push: year %}
+  {% endunless %}
+{% endfor %}
+
+{% assign years = years | sort | reverse %}
+
+{% for year in years %}
+  <div class="article-head">
+    <div class="article-title">{{ year }}</div>
   </div>
-  {% endfor %}
-</div>
+  <div class="tiles">
+    {% for item in site.data.events %}
+      {% assign item_year = item.date | date: "%Y" %}
+      {% if item_year == year %}
+      <div class="tile">
+        <div class="tile-subtitle">{{ item.level }}</div>
+        <div class="tile-title">
+          <a href="{{ item.link }}" target="_blank">
+            {{ item.name }}
+          </a>
+        </div>
+        <div class="tile-date">
+          {{ item.date }}
+        </div>
+        <div class="tile-image">
+          {% if item.default_logo %}
+          <img src="/assets/images/events/{{ item.prefix }}.png" alt="" />
+          {% else %}
+          <img src="/assets/images/events/{{ item.prefix }}-{{ item.date | date: '%Y%m%d'}}.png" alt="" />
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endfor %}
