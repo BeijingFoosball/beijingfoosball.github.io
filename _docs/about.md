@@ -75,6 +75,11 @@ key: about
   </div>
   <div class="partner">
     <div class="partner-image">
+      <img alt="CircleUrban Logo" src="/assets/images/partners/CircleUrban.png" class="partner-logo" />
+    </div>
+  </div>
+  <div class="partner">
+    <div class="partner-image">
       <img alt="Fireball Logo" src="/assets/images/partners/fireball.png" class="partner-logo" />
     </div>
   </div>
